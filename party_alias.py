@@ -6,7 +6,7 @@ import threading # https://www.youtube.com/watch?v=Mp6YMt8MSAU&ab_channel=Comput
 player_num = ["P1", "P2", "P3", "P4"]
 number_of_players = 4
 #open a text file with a words and make a list out of it
-with open("C:\\Users\\AT\\Documents\\git_projects\\brida-app\\brida.py") as f:
+with open("C:\\Users\\AT\\Documents\\git_projects\\party_alias\\word_lst_en.txt") as f:
     list2 = []
     for item in f:
         list2.append(item.strip())
